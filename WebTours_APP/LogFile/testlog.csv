@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738080605002,337,GetUserSession,200,OK,Thread Group 1-1,text,true,,1717,145,1,1,http://169.254.115.9:1080/cgi-bin/nav.pl?in=home,316,0,91
+1738080605360,215,Login_Action,200,OK,Thread Group 1-1,text,true,,878,322,1,1,http://169.254.115.9:1080/cgi-bin/login.pl,212,0,0
+1738080605578,337,FlightSelection,200,OK,Thread Group 1-1,text,true,,2709,472,1,1,http://169.254.115.9:1080/cgi-bin/reservations.pl,329,0,0
+1738080605917,268,FlightReservation,200,OK,Thread Group 1-1,text,true,,2972,377,1,1,http://169.254.115.9:1080/cgi-bin/reservations.pl,262,0,0
+1738080606187,252,PaymentCheckout,200,OK,Thread Group 1-1,text,true,,2780,555,1,1,http://169.254.115.9:1080/cgi-bin/reservations.pl,246,0,0
+1738080606442,221,SignOff,200,OK,Thread Group 1-1,text,true,,1025,151,1,1,http://169.254.115.9:1080/cgi-bin/welcome.pl?signOff=1,216,0,0
+1738080604639,1630,WebtourWorkflow,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,12081,2022,1,1,null,1581,391,91
